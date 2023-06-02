@@ -6,9 +6,9 @@ requirements: 2gb of ram a quad-core processor and 2 or 3gb of free memory
 
 # installation:
 copy the command 
- ...
-~ $ sh/MC-B-J/Setup.sh 
- ...
+ ``` 
+ git clone https://github.com/Yamada6612/MC-B-J  
+ ```
 
 this script will install the necessary files and configure the command to facilitate activation, the command is MC
 
