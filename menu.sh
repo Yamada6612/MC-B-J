@@ -86,6 +86,6 @@ case $opcao in
          *) echo "Invalid option. Try again ." && ./Iniciar.sh;;
        esac
        ;;
-    *) echo "Opção inválida"
+    *) echo "Invalid option"
        ;;
 esac
