@@ -20,7 +20,7 @@ echo "Preparando para instalar os recursos para o servidor para o minecraft bedr
 sleep 2
 
 # Adicionar alias para o comando MC
-echo "alias MC=menu.sh" >> ~/.bashrc
+alias MC="menu.sh" >> ~/.bashrc
 
 # Clonar repositório do GitHub
 git clone https://github.com/Yamada6612/MC-B-J
