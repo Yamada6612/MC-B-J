@@ -1,12 +1,12 @@
 #!/bin/bash
-echo "Iniciando por favor aguarde"
+echo "Starting please wait"
 sleep 1
 clear
 echo "===============================================================================" |lolcat -F 0.2 -d 1
 echo "                           Menu 1m1-1J Minecraft server          " |lolcat -F 0.2 -d 1
 echo "===============================================================================" |lolcat -F 0.2 -d 1
 
-echo "Escolha uma opção:"
+echo "choose an option :"
 echo "1) bedrock"
 echo "2) Java"
 read opcao
@@ -14,18 +14,18 @@ read opcao
 #limpa resíduos
 clear
 case $opcao in
-    1) echo "Você escolheu bedrock"
+    1) echo "You choose bedrock"
     clear
        # Mudar para o diretório bedrock
        #bedrock
-       echo -n "Escolha uma opção             "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "1. Iniciar Servido bedrok     "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "2. configuração               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "3. Ultimo Log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
-       echo -n "4. Ver whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "5. Ver players banidos        "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "6. IPs banidos                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "7. Sair                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "1. Start server bedrok     "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "2. Configuration               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "3. Last log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
+       echo -n "4. See whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "5. See banned players         "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "6. Banned IPs                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "7. Exit                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,....         ....,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,                 ,,,,,,,," | lolcat -F 0.2 -d 1
@@ -46,22 +46,22 @@ case $opcao in
          4) nano ./MC-B-J/bedrock/whitelist.json;;
          5) cat ./MC-B-J/bedrock/banned-players.json;;
          6) cat ./MC-B-J/bedrock/banned-ips.json;;
-         7) echo "Saindo..."; exit;;
-         *) echo "Opção inválida. Tente novamente." && ./Iniciar.sh;;
+         7) echo "Exiting..."; exit;;
+         *) echo "Invalid option. Try again ." && ./Iniciar.sh;;
        esac
        ;;
-    2) echo "Você escolheu Java"
+    2) echo "You choose Java"
     clear
        # Mudar oara o diretório Java
        #java
-       echo -n "Escolha uma opção             "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "1. Iniciar Servido java       "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "2. configuração               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "3. Ultimo Log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
-       echo -n "4. Ver whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "5. Ver players banidos        "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "6. IPs banidos                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "7. Sair                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "1. Start server java       "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "2. Configuration               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "3. Last log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
+       echo -n "4. See whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "5. See banned players         "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "6. Banned IPs                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "7. Exit                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,....         ....,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,                 ,,,,,,,," | lolcat -F 0.2 -d 1
@@ -82,8 +82,8 @@ case $opcao in
          4) nano ./MC-B-J/java/whitelist.json;;
          5) cat ./MC-B-J/java/banned-players.json;;
          6) cat ./MC-B-J/java/banned-ips.json;;
-         7) echo "Saindo..."; exit;;
-         *) echo "Opção inválida. Tente novamente." && ./Iniciar.sh;;
+         7) echo "Exiting..."; exit;;
+         *) echo "Invalid option. Try again ." && ./Iniciar.sh;;
        esac
        ;;
     *) echo "Opção inválida"
