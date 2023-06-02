@@ -20,7 +20,7 @@ echo "Preparando para instalar os recursos para o servidor para o minecraft bedr
 sleep 2
 
 # Adicionar alias para o comando MC
-alias MC="menu.sh" >> ~/.bashrc
+ echo alias MC="menu.sh" >> ~/.bashrc
 # Limpar log 
 clear
 # Baixar servidor do Minecraft Java Edition
