@@ -16,7 +16,7 @@ mkdir MC/java
 pkg install openjdk-17 -y
 pkg install wget -y 
 
-echo "Preparando para instalar os recursos para o servidor para o minecraft bedrok/Java"
+echo "Preparando para instalar os recursos para o servidor para o minecraft bedrock/Java"
 sleep 2
 
 # Adicionar alias para o comando MC
