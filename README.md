@@ -11,7 +11,7 @@ copy the command
  ```
  after cloning the repository or have downloaded use the command
  ```
-  sh /MC-B-J/setup.sh
+  sh MC-B-J/setup.sh
  ```
 this script will install the necessary files and configure the command to facilitate activation, the command is MC
 
