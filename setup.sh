@@ -21,10 +21,6 @@ sleep 2
 
 # Adicionar alias para o comando MC
 alias MC="menu.sh" >> ~/.bashrc
-
-# Clonar repositório do GitHub
-git clone https://github.com/Yamada6612/MC-B-J
-
 # Limpar log 
 clear
 
