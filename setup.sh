@@ -23,10 +23,11 @@ sleep 2
 alias MC="menu.sh" >> ~/.bashrc
 # Limpar log 
 clear
-
 # Baixar servidor do Minecraft Java Edition
 cd MC-B-J/java
 wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
 # Corrigir nome do arquivo
 mv server.jar.1 server.jar 
+#copiar menu
+cd MC-B-J && cp menu.sh ../ && cd
