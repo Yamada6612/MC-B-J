@@ -4,6 +4,11 @@ This project aims to make it easy to install the necessary resources to create a
 
 requirements: 2gb of ram a quad-core processor and 2 or 3gb of free memory 
 
+installation:
+move the menu and Setup file to ./ (outside of any folder) or put it in a dedicated directory, after placing the file outside the source folder you can run it using the command sh Setup.sh
+
+this script will install the necessary files and configure the command to facilitate activation, the command is MC
+
 I don't recommend using the server and playing at the same time on the same device for obvious reasons
 
  have a good time.
