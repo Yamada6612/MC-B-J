@@ -5,7 +5,7 @@ This project aims to make it easy to install the necessary resources on termux t
 requirements: 2gb of ram a quad-core processor and 2 or 3gb of free memory 
 
 installation:
-move the menu and Setup file to ./ (outside of any folder) or put it in a dedicated directory, after placing the file outside the source folder you can run it using the command sh Setup.sh
+copy the command sh/MC-B-J/Setup.sh
 
 this script will install the necessary files and configure the command to facilitate activation, the command is MC
 
