@@ -9,7 +9,11 @@ copy the command
  ``` 
  git clone https://github.com/Yamada6612/MC-B-J  
  ```
-
+ after cloning the repository or have downloaded use the command
+ ```
+  sh /MC-B-J/setup.sh
+  
+ ```
 this script will install the necessary files and configure the command to facilitate activation, the command is MC
 
 I don't recommend using the server and playing at the same time on the same device for obvious reasons
