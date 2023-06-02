@@ -4,7 +4,7 @@ This project aims to make it easy to install the necessary resources on termux t
 
 requirements: 2gb of ram a quad-core processor and 2 or 3gb of free memory 
 
-##installation:
+#installation:
 copy the command 
 ...
 sh/MC-B-J/Setup.sh 
