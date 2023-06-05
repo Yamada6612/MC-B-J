@@ -6,7 +6,8 @@ apt upgrade
 
 # Instalar Ruby e lolcat
 pkg install ruby -y
-gem install lolcat -y
+pkg install python-pip
+pip install lolcat
 
 # Criar diretórios para Minecraft Bedrock e Java
 mkdir MC/bedrock
