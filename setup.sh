@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Atualizar o sistema
-apt update
-apt upgrade
+apt update -y
+apt upgrade -y
 
 # Instalar Ruby e lolcat
 pkg install ruby -y
-pkg install python-pip
-pip install lolcat
+pkg install python-pip -y
+pip install lolcat -y
 
 # Criar diretórios para Minecraft Bedrock e Java
 mkdir MC/bedrock
