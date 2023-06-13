@@ -7,6 +7,7 @@ apt upgrade -y
 # Instalar Ruby e lolcat
 pkg install ruby -y
 pkg install python-pip -y
+sleep 1
 pip install lolcat -y
 
 # Criar diretórios para Minecraft Bedrock e Java
@@ -19,10 +20,11 @@ pkg install wget -y
 
 echo "Preparando para instalar os recursos para o servidor para o minecraft bedrok/Java"
 sleep 2
-
+#permisao de execução
+ chmod +x MC-B-J/menu.sh
 # Adicionar alias para o comando MC
- echo alias MC="sh MC-B-J/menu.sh" >> ~/.bashrc
- echo alias MC="sh MC-B-J/menu.sh" >> ~/.zshrc
+ echo alias MC="./MC-B-J/menu.sh" >> ~/.bashrc
+ echo alias MC="./MC-B-J/menu.sh" >> ~/.zshrc
 # Limpar log 
 clear
 # Baixar servidor do Minecraft Java Edition
