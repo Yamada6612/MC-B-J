@@ -35,5 +35,5 @@ then
     mv server.jar.1 server.jar
 fi
 
-#copiar men
+#copiar menu
 cp MC-B-J/menu.sh ./
