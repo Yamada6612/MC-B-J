@@ -30,6 +30,8 @@ clear
 # Baixar servidor do Minecraft Java Edition
 cd MC-B-J/java
 wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+#mensagem sobre plugins
+echo "If you want to use plugins or servers clients you need to install a vm of any linux distribution to use the most updated java/openjdk"
 
 # Corrigir nome do arquivo
 if [ -e server.jar.1 ]
