@@ -22,14 +22,17 @@ echo "Preparando para instalar os recursos para o servidor para o minecraft bedr
 sleep 2
 #permisao de execução
  chmod +x MC-B-J/menu.sh
+ 
 # Adicionar alias para o comando MC
  echo alias MC="./MC-B-J/menu.sh" >> ~/.bashrc
  echo alias MC="./MC-B-J/menu.sh" >> ~/.zshrc
 # Limpar log 
 clear
+
 # Baixar servidor do Minecraft Java Edition
 cd MC-B-J/java
 wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
+
 #mensagem sobre plugins
 echo "If you want to use plugins or servers clients you need to install a vm of any linux distribution to use the most updated java/openjdk"
 
