@@ -36,4 +36,4 @@ then
 fi
 
 #copiar menu
-cp MC-B-J/menu.sh ./
+ cp MC-B-J/menu.sh ./
