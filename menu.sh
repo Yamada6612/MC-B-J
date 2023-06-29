@@ -19,12 +19,12 @@ case $opcao in
        # Mudar para o diretório bedrock
        #bedrock
        echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "1. Start server bedrok     "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "2. Configuration               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "3. Last log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
+       echo -n "1. Start server bedrok        "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "2. Configuration              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "3. Last log                   "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
        echo -n "4. See whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "5. See banned players         "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "6. Banned IPs                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "6. Banned IPs                 "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "7. Exit                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,....         ....,,,,,,,," | lolcat -F 0.2 -d 1
@@ -55,12 +55,12 @@ case $opcao in
        # Mudar oara o diretório Java
        #java
        echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "1. Start server java       "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "2. Configuration               "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "3. Last log                 "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
+       echo -n "1. Start server java          "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "2. Configuration              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "3. Last log                   "; echo ",,,,.........,,,,,,,,........,,,," | lolcat -F 0.2 -d 1
        echo -n "4. See whitelist              "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "5. See banned players         "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
-       echo -n "6. Banned IPs                "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
+       echo -n "6. Banned IPs                 "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "7. Exit                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,....         ....,,,,,,,," | lolcat -F 0.2 -d 1
