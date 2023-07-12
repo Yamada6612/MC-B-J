@@ -2,21 +2,21 @@
 echo "Starting please wait"
 sleep 1
 clear
-echo "===============================================================================" |lolcat -F 0.2 -d 1
-echo "                           Menu 1m1-1J Minecraft server          " |lolcat -F 0.2 -d 1
-echo "===============================================================================" |lolcat -F 0.2 -d 1
+echo "======================================================================" | lolcat -F 0.2 -d 1
+echo "                    Menu 1m1-1J Minecraft server          " | lolcat -F 0.2 -d 1
+echo "======================================================================" | lolcat -F 0.2 -d 1
 
 echo "choose an option :"
 echo "1) bedrock"
 echo "2) Java"
 read opcao
 
-#limpa resíduos
+#limpa resÃ­duos
 clear
 case $opcao in
     1) echo "You choose bedrock"
     clear
-       # Mudar para o diretório bedrock
+       # Mudar para o diretÃ³rio bedrock
        #bedrock
        echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "1. Start server bedrok        "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
@@ -26,7 +26,7 @@ case $opcao in
        echo -n "5. See banned players         "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "6. Banned IPs                 "; echo ",,,,        .,,,,,,,.        ,,,," | lolcat -F 0.2 -d 1
        echo -n "7. Exit                       "; echo ",,,,,,,,,,,,.,,,,,,,.,,,,,,,,,,,," | lolcat -F 0.2 -d 1
-       echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -F 0.2 -d 1
+       echo -n "                              "; echo ",,,,,,,,,,,,         ,,,,,,,,,,,," | lolcat -
        echo -n "                              "; echo ",,,,,,,,....         ....,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,                 ,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,                 ,,,,,,,," | lolcat -F 0.2 -d 1
@@ -35,10 +35,10 @@ case $opcao in
        echo -n "                              "; echo ",,,,,,,,    .,,,,,,,.    ,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,    .,,,,,,,.    ,,,,,,,," | lolcat -F 0.2 -d 1
 
-       # Lê a escolha do usuário
+       # LÃª a escolha do usuÃ¡rio
        read escolha
 
-       # Faz algo com base na escolha do usuário
+       # Faz algo com base na escolha do usuÃ¡rio
        case $escolha in
          1) cd MC-B-J/bedrock/ && java -Xmx1024M -Xms1024M -jar server2.jar;;
          2) nano ./MC-B-J/bedrock/server.properties;;
@@ -52,7 +52,7 @@ case $opcao in
        ;;
     2) echo "You choose Java"
     clear
-       # Mudar oara o diretório Java
+       # Mudar oara o diretÃ³rio Java
        #java
        echo -n "choose an option              "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "1. Start server java          "; echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," | lolcat -F 0.2 -d 1
@@ -71,10 +71,10 @@ case $opcao in
        echo -n "                              "; echo ",,,,,,,,    .,,,,,,,.    ,,,,,,,," | lolcat -F 0.2 -d 1
        echo -n "                              "; echo ",,,,,,,,    .,,,,,,,.    ,,,,,,,," | lolcat -F 0.2 -d 1
 
-       # Lê a escolha do usuário
+       # LÃª a escolha do usuÃ¡rio
        read escolha
 
-       # Faz algo com base na escolha do usuário
+       # Faz algo com base na escolha do usuÃ¡rio
        case $escolha in
          1) cd MC-B-J/java/ && java -Xmx1024M -Xms1024M -jar server.jar;;
          2) nano ./MC-B-J/java/server.properties;;
@@ -84,8 +84,10 @@ case $opcao in
          6) cat ./MC-B-J/java/banned-ips.json;;
          7) echo "Exiting..."; exit;;
          *) echo "Invalid option. Try again ." && ./Iniciar.sh;;
+         3) echo "You choose Install Client"
        esac
        ;;
     *) echo "Invalid option"
        ;;
-esac
+
+  esac
