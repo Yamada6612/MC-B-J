@@ -3,7 +3,7 @@
 
 
 
-This project aims to make it easy to install the necessary resources on mobile devices to create a Minecraft server on android for both Java and bedrock note that if you want to play different versions just change the .jar files (this script it's totally compatible with the latest version of Minecraft )
+This project aims to make it easy to install the necessary resources on mobile devices to create a Minecraft server on android (or any OS capable to run Linux) for both Java and bedrock note that if you want to play different versions just change the .jar files (this script it's totally compatible with the latest version of Minecraft )
 
 minimum requirements: 2gb of ram a quad-core processor and 2 or 3gb of free memory 
 
