@@ -1,4 +1,6 @@
-# MC-B-J ![project_20230711_1748025-01](https://github.com/Yamada6612/MC-B-J/assets/96498811/db136dec-c621-43a3-84dc-1a2ee2cff5d2)
+# MC-B-J ![IMG_20230712_113641_012](https://github.com/Yamada6612/MC-B-J/assets/96498811/45c05749-9874-4cac-9ea4-f9a3e7b35715)
+
+
 
 
 This project aims to make it easy to install the necessary resources on termux to create a Minecraft server on android for both Java and bedrock note that if you want to play different versions just change the .jar files (this script it's totally compatible with the latest version of Minecraft )
