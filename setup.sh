@@ -75,7 +75,7 @@ mkdir MC/java > /dev/null 2>&1
 # Instalar OpenJDK e wget
 echo -n "    Instalando OpenJDK e wget "
 if [ -x "$(command -v apt-get)" ]; then
-    apt-get install default-jdk wget -y > /dev/null 2>&1
+    apt-get install jre-openjdk wget -y > /dev/null 2>&1
 elif [ -x "$(command -v yum)" ]; then
     yum install java-latest-openjdk wget -y > /dev/null 2>&1
 elif [ -x "$(command -v pacman)" ]; then
