@@ -20,4 +20,4 @@ this script will install the necessary files and configure the command to facili
 
 I don't recommend using the server and playing at the same time on the same device for obvious reasons
 
- have a good time.
+ have a good time (^_^)
